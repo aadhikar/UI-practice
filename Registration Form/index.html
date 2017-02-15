@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery-1.11.3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/controllers/formController.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" class="container">
+        <form name="registrationForm" validate>
+            <fieldset>
+                <legend>Registration Form</legend>
+                <div>
+                    <label>User Name</label>
+                    <input class="form-control" type="email" name="email" placeholder="Email" required ng-maxlength="56" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="" ng-model="user.email" />
+                </div>
+                <br>
+                <div>
+                    <label>Password</label>
+                    <input class="form-control" type="password" name="password" placeholder="Password" required ng-minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" onchange="form.confirmPassword.pattern = this.value;" value="" ng-model="user.password" />
+                </div>
+                <br>
+                <div>
+                    <label>Confirm Password</label>
+                    <input class="form-control" type="password" name="confirmPassword" placeholder="Re-enter password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" value="" ng-model="user.confirmPassword" />
+                </div>
+                <br>
+                <div>
+                    <label>First Name</label>
+                    <input class="form-control" type="text" name="firstName" placeholder="First Name" required pattern="[A-Za-z]{1,50}" value="" ng-model="user.firstName" />
+                </div>
+                <br>
+                <div>
+                    <label>Last Name</label>
+                    <input class="form-control" type="text" name="lastName" placeholder="Last Name (Optional)" ng-maxlength="50" value="" ng-model="user.lastName" />
+                </div>
+                <br>
+                <div>
+                    <label>Gender</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender"  ng-model="user.gender" value="male"/>Male
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender"  ng-model="user.gender" value="female" />Female
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Date of birth</label>
+                    <input class="form-control" type="date" name="lastName" placeholder="Last Name" required value="" ng-model="user.lastName" />
+                </div>
+                <br>
+                <div>
+                    <label>Adrress</label>
+                    <input class="form-control" type="text" name="address" placeholder="Address Line1" required value="" ng-model="user.addressLine1" />
+                    <br>
+                    <input class="form-control" type="text" name="address" placeholder="Address Line2 (Optional)"  value="" ng-model="user.addressLine2" />
+                </div>
+                <br>
+                <div>
+                    <label>Zip Code</label>
+                    <input class="form-control" type="number" name="zipCode" placeholder="Zip Code" required ng-maxlength="5" value="" ng-model="user.zipCode" />
+                    <label>Country</label>
+                    <input class="form-control" type="text" name="country" placeholder="Country" required pattern="[A-Za-z]{3}" title="Three letter country code" value="" ng-model="user.country" />
+                </div>
+                <br>
+                <div>
+                    <label>Phone Number</label>
+                    <input class="form-control" type="tel" name="telephone" placeholder="Telephone Number" required value="" ng-model="user.telephone" />
+                </div>
+                <br>
+                <div>
+                    <input type="submit" class="btn btn-submit" value="Submit" />
+                </div>
+            </fieldset>
+        </form>
+
+
+
+        <div></div>
+    </div>
+</body>
+</html>

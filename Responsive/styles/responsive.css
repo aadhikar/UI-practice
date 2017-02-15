@@ -1,0 +1,42 @@
+/*Responsive styles*/
+@media all and (max-width: 780px) {
+    .featuresList li,.feedbackList li{
+        width: 100%;
+    }
+    .feedbackList li{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .primaryMenu{
+        margin-top: 5px;
+    }
+    h1.logoText{
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    h1.logoText{
+        font-size: 20px;
+    }
+    .primaryMenu ul li{
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    h1.logoText{
+        display: none;
+    }
+    .primaryMenu{
+        margin-top: 0px;
+        float: none;
+    }
+    .primaryMenu ul li{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .primaryMenu ul li:first-child{
+        margin-left: 0px;
+    }
+}

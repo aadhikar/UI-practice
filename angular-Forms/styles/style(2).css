@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+form input.form-control{
+    width: 50%;
+}
+.error{
+    color: red;
+}

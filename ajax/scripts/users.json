@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "username": "Adhi124",
+    "bio": "25; Single and simple... Photos here are taken from my phone and made me feel better ?",
+    "website": "",
+    "profile_picture": "https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/10643830_630594637038132_2059110064_a.jpg",
+    "full_name": "Anilkumar Adhikari",
+    "counts": {
+      "media": 40,
+      "followed_by": 35,
+      "follows": 103
+    },
+    "id": "348879851"
+  }
+}

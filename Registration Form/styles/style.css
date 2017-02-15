@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgba(234, 219, 209, 0.13);
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+form input.form-control{
+    width: 50%;
+}
+.error{
+    color: #ff110a;
+}

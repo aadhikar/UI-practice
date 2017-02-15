@@ -1,0 +1,58 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    padding: 0px 20px;
+    width:1080px;
+    margin:0 auto;
+    border:1px solid #ccc;
+    font-family: sans-serif;
+}
+
+header{
+    width: 852px;
+    border: 1px solid black;
+    display: block;
+    padding: 13px 31px;
+    font-size: 30px;
+}
+
+header div{
+    float: left;
+}
+
+nav{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    border: 1px solid skyblue;
+    padding: 10px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+nav li:last-child{
+    border: 1px solid skyblue;
+    width: 407px;
+    padding: 10px
+}
+
+input{
+    width: 210px;
+}
+
+.searchBar{
+    padding-left: 135px;
+}
+
+button{
+    cursor: pointer;
+}

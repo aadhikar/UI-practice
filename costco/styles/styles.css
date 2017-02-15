@@ -1,0 +1,122 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Trebuchet MS';
+}
+.wrapper{
+	width:100%;
+	background:#fff;
+	color:#000;
+}
+.mainHeader{
+	background:#000;
+	color:#fff;
+	text-transform:uppercase;
+}
+.innerContainer{
+	width:1080px;
+	margin:0 auto;
+}
+.mainHeader .listItems{
+	list-style:none;
+	float:left;
+}
+.mainHeader .listItems li{
+	list-style:none;
+	float:left;
+	display:block;
+	margin: 10px;
+	font-size:13px;
+}
+.clear{
+	clear:both;
+}
+.mainHeader .countryList{
+	float:right;
+}
+.mainHeader .countryList li{
+	float:left;
+	list-style:none;
+	margin:10px;
+	font-size:13px;
+}
+/* Second Header Styles */
+.secondHeader .logo{
+	margin-top:25px;
+	margin-bottom:10px;
+	float:left;
+}
+.secondHeaderNavLinks{
+	float:right;
+}
+.secondHeaderNavLinks .topLinks{
+	margin:5px;
+	margin-bottom:15px;
+}
+.secondHeaderNavLinks .topLinks li{
+	float:left;
+	margin:0px 10px;
+	padding:0px 10px;
+	font-size:12px;
+}
+.secondHeaderNavLinks .topLinks li:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+.couponsLink{
+	color:#0060A9;
+	font-size:15px;
+	text-align:right;
+	display:block;
+	font-weight:bold;
+	margin-top:10px 0px 20px 0px;
+}
+.botomLinks{
+	float:right;
+	margin-top:10px;
+}
+.botomLinks li{
+	float:left;
+	list-style:none;
+	margin:10px;
+	font-size:12px;
+}
+/* Email Sub Men Styles */
+.emailSignupListItem{
+	position:relative;
+}
+.emailSignupListItem .emailSignUpForm{
+	display:none;
+}
+.emailSignupListItem:hover{
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+.emailSignupListItem:hover  .emailSignUpForm{
+	display:block;
+	position:absolute;
+	top:13px;
+	left:-1px;
+	width:200px;
+	background:#fff;
+	z-index:1;
+	border:1px solid #ccc;
+	padding:5px;
+}
+.emailSignUpForm p{
+	margin:5px 0px;
+}
+.emailSignUpForm label{
+	block:block;
+	margin:5px 0px;
+}
+.emailSignUpForm input[type="text"]{
+	margin:5px 0px;
+	border:1px solid #ccc;
+	display:block;
+	padding:3px 5px;
+}
+.emailSignUpForm input[type="submit"]{
+	margin-bottom:10px;
+	display:block;
+}

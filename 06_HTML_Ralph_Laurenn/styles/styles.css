@@ -1,0 +1,44 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    background-color: rgba(146, 135, 135, 0.55);
+}
+.nav{
+	width: 950px;
+}
+.nav ul li,.level1Menu .level2Menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 43px;
+	font-weight: bold;
+	position: relative;
+    cursor: pointer;
+}
+.header{
+	padding: 20px auto;
+	margin: 45px 12px 15px;
+}
+.contentContainer{
+	margin: auto 220px;
+}
+.clear{
+	clear: both;
+}
+.level2Menu{
+	display: none;
+}
+ul li.level1Menu:hover .level2Menu{
+	display: block;
+	position: absolute;
+	top: 25px;
+    border-radius: 4px;
+    background-color: rgba(146, 135, 135, 0.55);
+    cursor: pointer;
+}
+.logo{
+	width: 1347px;
+	height: 735px;
+	margin-top: 15px;
+}

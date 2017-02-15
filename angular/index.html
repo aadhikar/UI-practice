@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular Example</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.11.3.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+    <!--<h1>HI {{name}}</h1>-->
+    <!--<input type="text" ng-model="txtAddFirst" ng-hide="hideInput"  />-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<input type="text" ng-model="txtAddSecond" ng-hide="hideInput" />-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<input type="button" value="Add" ng-click="add()" />-->
+    <!--<p>{{txtResult}}</p>-->
+    <!--<div ng-controller="userController">-->
+        <!--&lt;!&ndash;<p ng-repeat="user in users">{{user}}</p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p>{{users.firstName}}{{users.lastName}}</p>&ndash;&gt;-->
+        <!--<p ng-repeat="user in users">{{user.firstName}}{{user.lastName}}</p>-->
+    <!--</div>-->
+<nav>
+    <a href="#/about">About</a>
+    <a href="#/contactUs"> Contact us</a>
+</nav>
+<div ng-view="">
+
+</div>
+</body>
+</html>

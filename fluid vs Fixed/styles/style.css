@@ -1,0 +1,65 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.outerContainer{
+	width:960px;
+	margin:0 auto;
+}
+header{
+	width:960px;
+	height:100px;
+	background:#ccc;
+	margin-bottom:10px;
+}
+.col{
+	background:#ccc;
+	height:300px;
+	margin-right:20px;
+	float:left;
+}
+.col1{
+	width:520px;
+}
+.col2, .col3{
+	width:200px;
+}
+.col3{
+	margin-right:0px;
+}
+.clear{
+	clear:both;
+}
+/* Fluid Styles */
+.outerContainerFluid{
+	width:90%;
+	margin:0 auto;
+}
+.outerContainerFluid header{
+	width:100%;
+}
+.outerContainerFluid .content{
+}
+.colFluid {
+	min-height:300px;
+	margin-right:5%;
+	float:left;
+	background:#ccc;
+}
+.col1Fluid{
+	width:50%;
+}
+.col2Fluid, .col3Fluid{
+	width:20%;
+}
+.col3Fluid{
+	margin-right:0px;
+}
+@media screen and (max-width:700px){
+	body{
+		color:blue;
+	}
+	.col1Fluid{
+		background:black;
+	}
+}

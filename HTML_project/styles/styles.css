@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: blue url("http://camosunweb.com/wp-content/uploads/2010/11/cssbackground.jpg");
+}
+/* Outer Container Start*/
+.outerContainer{
+	width:1080px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	font-family: sans-serif;
+}
+/* Header Styles*/
+.header{
+	background:#ccc;
+	border:1px solid #000;
+	overflow:hidden;
+}
+.header img{
+	height:100px;
+	width:100px;
+	float:left;
+}
+.header h1{
+	float:left;
+	margin-top:45px;
+	margin-left:10px;
+}
+/* Content Container */
+.contentContainer{
+	overflow:hidden;
+	border:1px solid #ccc;
+	background:#fff;
+	clear:both;
+}
+.menuContainer ul{
+	float:left;
+	width:150px;
+	padding:20px 30px;
+	list-style:none;
+}
+.menuContainer ul li{
+	list-style:none;
+	border:1px solid #ccc;
+	padding: 5px 10px;
+}
+.content{
+	padding:20px;
+	float:left;
+	width:750px;
+	border-left:1px solid #ccc;
+}
+.subtitle{
+	margin:20px 0px;
+}
+.subContent{
+	overflow:hidden;
+}
+.subContent img{
+	float:left;
+	width:100px;
+	height:100px;
+	border:1px solid #ccc;
+}
+.subContent .text{
+	margin-left:5px;
+	float:left;
+	width:500px;
+	font-size:15px;
+	
+}
+/* Footer Styles*/
+.footer{
+	background:#ccc;
+	font-weight:bold;
+}
+.footer p{
+	padding:5px 20px;
+	
+}
+/* Naviagation Menu */
+.nav ul{
+	list-style:none;
+	background:blue;
+	position:relative;
+}
+.nav ul li{
+	list-style:none;
+	float:left;
+	display:block;
+}
+.nav ul li a{
+	color:#fff;
+	padding: 13px 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+.nav ul li a:hover{
+	background:#24C5E2;
+}
+.clear{
+	clear:both;
+}
+.level2Menu{
+	display:none;
+	background:blue;
+}
+.nav > ul li.level1MenuItem :hover.level2Menu{
+	display:block;
+	position:absolute;
+	top:40px;
+}

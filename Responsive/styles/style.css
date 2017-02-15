@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Helvetice Neue', Arial, Tahoma, Verdana;
+}
+.outerContainer{
+	width: 100%;
+	background: #ffffff;
+}
+.innerContainer{
+	width: 80%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+/* Header Styles */
+header{
+	background: #000;
+	color: #ffffff;
+}
+h1.logoText{
+	float: left;
+	width: 25%;
+}
+.primaryMenu{
+	float: right;
+	margin-top: 10px;
+}
+.primaryMenu ul li{
+	list-style: none;
+	float: left;
+	display: block;
+	margin-left: 30px;
+	color: #888;
+}
+.primaryMenu ul li a{
+	color: #888;
+	text-decoration: none;
+	font-weight: bold;
+}
+.primaryMenu ul li:hover a{
+	color: #ffffff;
+}
+.headerSpacing{
+	padding: 20px 0px;
+}
+/*Banner Content*/
+.bannerContent{
+	background: url("../images/banner.png") #31BBDA no-repeat;
+	padding: 5% 0px;
+	color: #ffffff;
+}
+.bannerHeading{
+	font-size: 40px;
+	font-weight: normal;
+}
+.bannerHeading span{
+	font-weight: bold;
+}
+.bannerText{
+	margin:20px 0px;
+	width: 80%;
+}
+.btn{
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	color: #ffffff;
+	background: #ff9a01;
+	border-radius: 5px;
+}
+.btn:hover{
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff9a01), to(#ffc101));
+}
+/*Feature content*/
+.mainContent{
+	padding: 2% 0px;
+}
+.featuresList li{
+	list-style: none;
+	width: 45%;
+	margin-top: 2%;
+	float: left;
+	display: block;
+}
+.featureListItem img{
+	float: left;
+	display: block;
+	margin-right: 20px;
+	width: 8%;
+}
+.featureItemContent{
+	float: left;
+	width: 75%;
+}
+/*Feedback Section*/
+.feedbackSection{
+	margin: 20px 0px;
+}
+.feedbackHeading{
+	color: #737373;
+	text-transform: uppercase;
+	margin: 30px 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #737373;
+}
+.feedbackList li{
+	list-style: none;
+	width: 30%;
+	margin-left: 4%;
+	float: left;
+	display: block;
+}
+.feedbackList li:first-child{
+	margin-left: 0px;
+}
+.feedbackList li img{
+	float: left;
+	width: 30px;
+	display: block;
+}
+.feedbackList li div{
+	float: left;
+	width: 78%;
+	margin-left: 10px;
+}

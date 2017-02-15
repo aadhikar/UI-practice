@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outerContainer{
+    margin: 0 auto;
+}
+
+.outerContainer header{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+header h1{
+    float: left;
+}
+
+header h1 a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header .signInLink{
+    float: right;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.innerContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.profileImage{
+    width: 200px;
+    height: 200px;
+    float: left;
+    display: block;
+}
+
+.profileContent{
+    float: left;
+    margin-left: 20px;
+}
+
+.btn{
+    display: block;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mediaImages{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.mediaImages li{
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: left;
+}
+
+.mediaImages li img{
+    width: 200px;
+    height: 200px;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		.collapseMenu_label{
+			text-transform: uppercase;
+			color: #484848;
+			line-height: 24px;
+			font-weight: 700;
+			font-family: "Helvetica Neue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+			font-size: 15px;
+			text-indent: 5px;
+		}
+		
+		
+		.collapseListHeader li {
+			list-style: none;
+		}
+
+		li .collapseMenu_label + input[type=checkbox] {
+			opacity: 0;
+		}
+
+		li .collapseMenu_label {
+			cursor: pointer;
+		}
+
+		li .collapseMenu_label + input[type=checkbox] + ul > li {
+            display: none;
+		}
+
+		li .collapseMenu_label + input[type=checkbox]:checked + ul > li {
+			display: block;
+		}
+	</style>
+</head>
+
+
+
+<body>
+
+<ul class="collapseListHeader">
+  <li>
+	<label for="typography" class="collapseMenu_label">typography </label>
+	<input type="checkbox" id="typography" />
+	<ul>
+	  <li class="page"><a href="#">Font Weights</a></li>
+	  <li class="page"><a href="#">Page Title</a></li>
+	  <li class="page"><a href="#">Page Title With Required</a></li>
+	</ul>
+  </li>
+
+</ul>
+
+
+
+
+<!--
+
+<hr>
+
+
+
+			
+	<ol id="menutree">
+		<li>
+			<label class="menu_label" for="c1">Menu Gen14 Am0a1</label>
+			<input type="checkbox" id="c1" />                             
+			<ol>
+			  <li>
+				<label for="c2" class="menu_label">Menu Am1a1</label>
+				<input type="checkbox" id="c2" />
+				<ol>
+				  <li class="page"><a href="#">Page Ap1a1</a></li>
+				  <li class="page"><a href="#">Page Ap1a2</a></li>
+				  <li class="page"><a href="#">Page Ap1a3</a></li>
+				</ol>
+			  </li>
+			  <li>
+				<label for="c3" class="menu_label">Menu Am1b1</label>
+				<input type="checkbox" id="c3" />
+				<ol>
+				  <li class="page"><a href="#">Page Ap1b1</a></li>
+
+				  <li>
+					<label for="c4" class="menu_label">Menu Am2b1 </label>
+					<input type="checkbox" id="c4" />
+					<ol>
+					  <li class="page"><a href="#">Page Ap2b1</a></li>
+					</ol></li>
+				</ol></li>
+			</ol>
+		</li>
+
+		<li>
+			<label class="menu_label" for="c5">Menu Bm0a1</label>
+			<input type="checkbox" id="c5" />
+			<ol>
+			  <li>
+				<label for="c6" class="menu_label">Menu Bm1a1</label>
+				<input type="checkbox" id="c6" />
+				<ol>
+				  <li class="page"><a href="#">Page Bp1a1</a></li>
+				</ol>
+			  </li>
+			  <li>
+				<label for="c7" class="menu_label">Menu Bm1b1</label>
+				<input type="checkbox" id="c7" />
+				<ol>
+				  <li class="page"><a href="#">Page Bp1b1</a></li>
+				  <li>
+					<label for="c8" class="menu_label">Menu Bm2b1</label>
+					<input type="checkbox" id="c8" />
+					<ol>
+					  <li class="page"><a href="#">Page Bp2b1</a></li>
+					</ol></li>
+				</ol></li>
+			</ol>
+		</li>
+	</ol> -->
+</body>
+</html>
