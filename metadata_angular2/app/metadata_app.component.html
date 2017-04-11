@@ -1,0 +1,15 @@
+<h2>List of Coutries with Region and population</h2>
+<h2>{{itemList.length > 0}}</h2>
+
+<table style="width:100%" *ngIf="itemList.length > 0">
+  <tr>
+    <th>Country</th>
+    <th>Region</th> 
+    <th>Population</th>
+  </tr>
+  <tr *ngFor="#myItem of itemList">
+    <td>{{myItem.country}}</td>
+    <td>{{myItem.region}}</td> 
+    <td>{{myItem.population}}</td>
+  </tr>
+</table>
