@@ -1,0 +1,9 @@
+<h2>Angular2 Data binding</h2>
+<ol>
+	<li
+	*ngFor="#Item of Items"
+	(click)="onItemClicked(Item)">
+	{{ Item.name }}
+</li>
+</ol>
+<input class="inputItem" type="text" [(ngModel)]="clickedItem.name">
