@@ -1,0 +1,45 @@
+body{
+	background-color: #000000;
+    font-family: cursive;
+}
+ol li{
+	color: #0f0;
+	list-style-type: kannada;
+}
+input {
+    color: #0f0;
+}
+p.forDelete {
+    display: inline-block;
+    text-transform: capitalize;
+    padding-right: 15px;
+}
+p {
+    text-transform: capitalize;
+    padding-right: 15px;
+}
+button {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.selectedItem span {
+    color: orange;
+}
+.recentDeletedItem span {
+    color: red;
+}

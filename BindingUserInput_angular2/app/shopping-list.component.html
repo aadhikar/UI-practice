@@ -1,0 +1,14 @@
+<input type="text" #listItem />
+<button (click)="onAddItem(listItem)">Add Item</button>
+<ol>
+	<li *ngFor="#listItem of listItems"
+	(click)="onItemClicked(listItem)">
+	<div>
+		<p class="forDelete" id="Location_{{listItem.name}}_id">{{listItem.name}}</p>
+		<button (click)="onDeleteItem(listItem)">X</button>
+	</div>
+</li>
+</ol><br><br>
+
+<p class="selectedItem" *ngIf="selectedItem.name != ''">Selected Item : <span>{{selectedItem.name}}</span></p>
+<p class="recentDeletedItem" *ngIf="recentDeletedItem.name != ''">Recent Deleted Item : <span>{{recentDeletedItem.name}}</span></p>
