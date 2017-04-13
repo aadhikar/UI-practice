@@ -1,0 +1,5 @@
+<h2>User Input On Blur Event</h2>
+<input #myval
+(keyup.enter)="values=myval.value"
+(blur)="values=myval.value">
+<p>{{values}}</p>

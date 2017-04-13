@@ -1,0 +1,15 @@
+body{
+	background-color: #000000;
+    font-family: cursive;
+}
+h2 {
+    color: #00ff00;
+    font-family: inherit;
+}
+p {
+    color: #0000ff;
+    font-family: inherit;
+}
+input.inputItem {
+    color: green;
+}
