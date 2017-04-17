@@ -1,0 +1,12 @@
+<h2>{{title}}</h2>
+<p class="alert alert-success" *ngIf="names.length > 2">Currently there are more than 2 names!</p>
+<p class="alert alert-danger" *ngIf="names.length <= 2">Currently there are less than 2 names left!</p>
+<ol>
+	<li *ngFor="#nam of names"
+	(click)="onNameClicked(nam)"
+	>{{ nam.name }}  <button class="forDelete" id="Location_{{nam.name}}_id" (click)="onDeleteName(nam)">X</button></li>
+</ol>
+<input type="text" #nam>
+<button (click)="onAddName(nam)">Add Name</button>
+<p class="selectedItem" *ngIf="selectedName.name != ''">Selected Name : <span>{{selectedName.name}}</span></p>
+<p class="recentDeletedItem" *ngIf="recentDeletedItem.name != ''">Recent Deleted Name : <span>{{recentDeletedItem.name}}</span></p>
