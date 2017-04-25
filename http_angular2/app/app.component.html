@@ -1,0 +1,53 @@
+<h1>Angular 2 HTTP service</h1>
+
+<div class="col-md-12 table-responsive">
+	<table class="table table-condensed">
+		<thead>
+			<tr>
+				<th></th>
+				<th>id</th>
+				<th>name</th>
+				<th>username</th>
+				<th>email</th>
+				<th>address</th>
+				<th>phone</th>
+				<th>website</th>
+				<th>company</th>
+			</tr>
+		</thead>
+		<tbody *ngFor="#user of users; #i = index" >
+			<tr>
+				<td>
+					<button class="btn btn-danger" type="submit" (click)="removeUser($event)">X</button>
+				</td>
+				<td>{{i+1}}</td>
+				<td>{{user.name | uppercase}}</td>
+				<td>{{user.username}}</td>
+				<td>{{user.email}}</td>
+				<td>
+					<address>
+						<div>{{user.address.street}} {{user.address.suite}}</div> 
+						<div>{{user.address.city}} {{user.address.zipcode}} USA</div>
+					</address>
+				</td>
+				<td>{{user.phone}}</td>
+				<td>{{user.website}}</td>
+				<td>{{user.company.name}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
