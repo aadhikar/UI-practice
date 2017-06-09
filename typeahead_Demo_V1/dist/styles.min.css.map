@@ -1,0 +1,1 @@
+{"version":3,"sources":["_global.scss"],"names":[],"mappings":"AAAA,KACI,WAAA,KACA,SAAA,SAGJ,KACC,iBAAA,KACG,YAAA,IACA,UAAA","file":"styles.min.css","sourcesContent":["html {\r\n    min-height: 100%;\r\n    position: relative;\r\n}\r\n\r\nbody {\r\n\tbackground-color: $bg-lime;\r\n    font-weight: 400;\r\n    font-size: 14px;\r\n}"]}
