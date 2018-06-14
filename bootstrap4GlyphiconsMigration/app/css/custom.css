@@ -1,0 +1,19 @@
+.bs-glyphicons-list {
+    padding-left: 0;
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.bs-glyphicons li {
+    float: left;
+    width: 25%;
+    height: 115px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+}
