@@ -1,8 +1,7 @@
 Bootstrap 4 - Glyphicons migration
 ==================================
----
 
-## 1. Installed bootstrap 4 (npm install bootstrap)
+## 1. Install bootstrap 4 (npm install bootstrap)
 ## 2. Copy the fonts files from: https://github.com/twbs/bootstrap-sass/tree/master/assets/fonts/bootstrap
 ## 3. Copy the https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_glyphicons.scss file into your bootstrap/scss folder
 ## 4. Open your scss /bootstrap/bootstrap.scss and write down the following SCSS code at the end of this file:
